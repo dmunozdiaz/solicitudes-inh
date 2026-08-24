@@ -4,17 +4,17 @@
 <!--begin::Head-->
 
 <head>
-    <title>Solicitudes Ciudadanas - Municipalidad de Temuco</title>
+    <title>Sobre Nosotros - Instituto Nacional de Hidráulica (INH)</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Solicitudes Ciudadanas - Municipalidad de Temuco" />
-    <meta name="keywords" content="temuco, TEMUCO, Consultas en Línea" />
+    <meta name="description" content="Sobre Nosotros - Instituto Nacional de Hidráulica (INH)" />
+    <meta name="keywords" content="Instituto Nacional de Hidráulica, INH, sobre nosotros" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="es_CL" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Solicitudes Ciudadanas - Municipalidad de Temuco" />
-    <meta property="og:url" content="https://solicitudes-tco-dev.lazos.cl/" />
-    <meta property="og:site_name" content="Solicitudes Ciudadanas - Municipalidad de Temuco" />
-    <link rel="canonical" href="https://solicitudes-tco-dev.lazos.cl/" />
+    <meta property="og:title" content="Sobre Nosotros - Instituto Nacional de Hidráulica (INH)" />
+    <meta property="og:url" content="https://inh.gob.cl/" />
+    <meta property="og:site_name" content="Sobre Nosotros - Instituto Nacional de Hidráulica (INH)" />
+    <link rel="canonical" href="https://inh.gob.cl/" />
     <link rel="shortcut icon" href="/assets/media/logos/gobcl-favicon.ico" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -45,16 +45,15 @@
                     <div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
                         <!--begin::Logo-->
                         <a href="#" class="py-9 mb-5">
-                            <img alt="Logo" src="https://www.temuco.cl/wp-content/uploads/2022/02/Logo-mun-tco-w500.png"
+                            <img alt="Logo" src="https://inh.gob.cl/wp-content/uploads/2025/11/INH_logo_footer_final-150x150.png"
                             class="h-175px" />
                         </a>
                         <!--end::Logo-->
                         <!--begin::Title-->
-                        <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: rgb(00,113,206);">Municipalidad de
-                            Temuco<br /></h1>
+                        <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: rgb(00,113,206);">Instituto Nacional de Hidráulica (INH) <br /></h1>
                         <!--end::Title-->
                         <!--begin::Description-->
-                        <p class="fw-bold fs-2" style="color: rgb(00,113,206);">Municipio Ciudadano
+                        <p class="fw-bold fs-2" style="color: rgb(00,113,206);">Información y Atención Ciudadana
                             <br />
                         </p>
                         <!--end::Description-->
@@ -62,7 +61,7 @@
                     <!--end::Content-->
                     <!--begin::Illustration-->
                     <div class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px"
-                        style="background-image: url(assets/media/illustrations/registro-solicitudes.png"></div>
+                        style=""></div>
                     <!--end::Illustration-->
                 </div>
                 <!--end::Wrapper-->
@@ -79,7 +78,7 @@
                             <!--begin::Heading-->
                             <div class="mb-10 text-center">
                                 <!--begin::Title-->
-                                <h1 class="text-dark mb-3">Sistema de Solicitudes Ciudadanas</h1>
+                                <h1 class="text-dark mb-3">Sistema de Información y Atención Ciudadana</h1>
                                 <!--end::Title-->
                                 <!--begin::Link-->
                                 <!-- <div class="text-gray-400 fw-bold fs-4">Municipalidad de Temuco</div> -->
