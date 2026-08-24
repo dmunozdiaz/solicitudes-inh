@@ -14,14 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
 
-Route::post('post-solicitud-procesada',  [\App\Http\Controllers\Api\PostSolicitudProcesadaController::class, 'post']);
-
-Route::post('post-solicitud-enproceso',  [\App\Http\Controllers\Api\PostSolicitudEnProcesoController::class, 'post']);
-
-Route::post('post-email-nueva_solicitud-grupo',  [\App\Http\Controllers\Api\PostMailNuevaSolictudController::class, 'post']);
-
-Route::post('post-email-solicitud-asignada',  [\App\Http\Controllers\Api\PostMailSolicitudAsignadaController::class, 'post']);
