@@ -1,0 +1,70 @@
+version: '3.7'
+
+services:
+   # nginx-proxy:
+       # image: jwilder/nginx-proxy
+       # ports:
+       #     - "80:80"
+       #     - "443:443"
+      #  volumes:
+           # - /var/run/docker.sock:/tmp/docker.sock:ro
+  #App
+    app:
+        container_name: laravel_temuco_app
+        image: tangramor/nginx-php8-fpm
+        working_dir: /var/www/html
+        #environment:
+          #  - VIRTUAL_HOST=solicitudes-tco-dev.lazos.cl
+        volumes:
+            - "./:/var/www/html"
+        labels:
+            - traefik.http.routers.laravel_temuco_app.rule=Host(`solicitudes-tco-dev.lazos.cl`)
+            - "traefik.http.routers.laravel_temuco_app.entrypoints=websecure"
+            - "traefik.http.routers.laravel_temuco_app.tls=true"
+            - "traefik.docker.network=web"
+        depends_on:
+            - mysql
+        networks:
+            - web
+            - laravel_temuco
+      
+
+  # Mysql
+    mysql:
+        image: mysql:8
+        container_name: laravel_temuco_mysql
+        volumes:
+            - "./data/mysql:/var/lib/mysql"
+      #  - "/etc/localtime:/etc/localtime:ro"
+        environment:
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_PASS: ${DB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: 1234Asdf
+        ports:
+            - "33061:3306"
+        networks:
+            - laravel_temuco
+        labels:
+            - traefik.enable=false
+
+
+  # Redis
+    redis:
+        container_name: laravel_temuco_redis
+        image: redis:5-alpine
+        ports:
+            - "9002:6379"
+        networks:
+            - laravel_temuco
+        labels:
+            - traefik.enable=false
+
+
+networks:
+    web:
+        external:
+            name: web
+    laravel_temuco:
+        external:
+            name: laravel_temuco

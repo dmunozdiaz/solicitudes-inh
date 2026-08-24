@@ -1,0 +1,1 @@
+<iframe name="openCaseFrame" frameborder="0" id="openCaseFrame" class="ux-mif" style="overflow:auto; width:100%; height:700px;" src="{{ $fullUrl }}/sys{{ $workspace }}/en/{{ $skin }}/cases/open?APP_UID={{ $case }}&DEL_INDEX=1&action=draft&sid={{ $session }}"></iframe>

@@ -1,0 +1,175 @@
+.nav.nav-tabs .nav-item .nav-link .number-tabs {
+    height: 2rem;
+    width: 2rem;
+    background-color: #ffe4ff;
+    color: #8a56f6;
+    font-size: 1rem;
+    font-weight: 600;
+    flex: 0 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+.nav.nav-tabs .nav-item .nav-link.active .number-tabs {
+    height: 2rem;
+    width: 2rem;
+    background-color: #8a56f6;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    flex: 0 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+.form-control.form-detalle::placeholder {
+    color: #3F4254;
+}
+
+.timeline.timeline-5::before { left: 150.5px; }
+.timeline.timeline-5 .timeline-item .timeline-label { width: 150px; }
+
+.apexcharts-legend {
+    display: flex;
+    overflow: auto;
+    padding: 0 10px;
+}
+.apexcharts-legend.position-bottom, .apexcharts-legend.position-top {
+    flex-wrap: wrap
+}
+.apexcharts-legend.position-right, .apexcharts-legend.position-left {
+    flex-direction: column;
+    bottom: 0;
+}
+.apexcharts-legend.position-bottom.apexcharts-align-left, .apexcharts-legend.position-top.apexcharts-align-left, .apexcharts-legend.position-right, .apexcharts-legend.position-left {
+    justify-content: flex-start;
+}
+.apexcharts-legend.position-bottom.apexcharts-align-center, .apexcharts-legend.position-top.apexcharts-align-center {
+    justify-content: center;
+}
+.apexcharts-legend.position-bottom.apexcharts-align-right, .apexcharts-legend.position-top.apexcharts-align-right {
+    justify-content: flex-end;
+}
+.apexcharts-legend-series {
+    cursor: pointer;
+    line-height: normal;
+}
+.apexcharts-legend.position-bottom .apexcharts-legend-series, .apexcharts-legend.position-top .apexcharts-legend-series{
+    display: flex;
+    align-items: center;
+}
+.apexcharts-legend-text {
+    position: relative;
+    font-size: 14px;
+}
+.apexcharts-legend-text *, .apexcharts-legend-marker * {
+    pointer-events: none;
+}
+.apexcharts-legend-marker {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    border-style: solid;
+}
+
+.apexcharts-legend.apexcharts-align-right .apexcharts-legend-series, .apexcharts-legend.apexcharts-align-left .apexcharts-legend-series{
+    display: inline-block;
+}
+.apexcharts-legend-series.apexcharts-no-click {
+    cursor: auto;
+}
+.apexcharts-legend .apexcharts-hidden-zero-series, .apexcharts-legend .apexcharts-hidden-null-series {
+    display: none !important;
+}
+.apexcharts-inactive-legend {
+    opacity: 0.45;
+}
+
+.bg-dash1 {
+    background-color: #f1eaff !important;
+}
+
+.bg-dash2 {
+    background-color: #ecfcff !important;
+}
+
+.bg-dash3 {
+    background-color: #ebf1ff !important;
+}
+
+.bg-dash4 {
+    background-color: #ffeaef !important;
+}
+
+.svg-icon.svg-icon-dash3 svg g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+    fill: #0042d2 !important;
+}
+
+.svg-icon.svg-icon-dash3 svg:hover g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+}
+
+.svg-icon.svg-icon-dash4 svg g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+    fill: #d67086 !important;
+}
+
+.svg-icon.svg-icon-dash4 svg:hover g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+}
+
+.svg-icon.svg-icon-dash5 svg g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+    fill: #27A6E7 !important;
+}
+
+.svg-icon.svg-icon-dash5 svg:hover g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+}
+
+.text-dash3 {
+    color: #0042d2 !important;
+}
+
+.text-dash4 {
+    color: #d67086 !important;
+}
+
+.borde{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+/*Historico Tarea*/
+
+.listahistorico-cell {
+    background: #f7f7f7;
+    border-top:none !important;
+}
+
+.listahistorico-cell-etiqueta {
+    background-color: white;
+    width: 30%;
+    text-align: right;
+}
+table {
+    counter-reset: section;
+}
+
+.count:before {
+    counter-increment: section;
+    content: counter(section);
+}
