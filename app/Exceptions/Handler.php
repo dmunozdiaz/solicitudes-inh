@@ -66,7 +66,7 @@ class Handler extends ExceptionHandler
             $content['request'] = json_encode(request()->all());
 
 
-            Mail::to(env('EMAIL_REPORTES_ERROR'))->send(new ExceptionOccured($content));
+           // Mail::to(env('EMAIL_REPORTES_ERROR'))->send(new ExceptionOccured($content));
         } catch (Throwable $exception) {
             Log::error($exception);
         }
