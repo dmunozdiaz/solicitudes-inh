@@ -61,8 +61,8 @@ class Handler extends ExceptionHandler
             $content['url'] = request()->url();
             $content['body'] = request()->all();
             $content['ip'] = request()->ip();
-            $content['iduser'] = auth()->user()->id;
-            $content['user'] = auth()->user()->nombres.' '.auth()->user()->apellidos;
+            $content['iduser'] = auth()->check() ? auth()->user()->id : null;
+            $content['user'] = auth()->check() ? auth()->user()->nombres.' '.auth()->user()->apellidos : 'No autenticado';
             $content['request'] = json_encode(request()->all());
 
 
