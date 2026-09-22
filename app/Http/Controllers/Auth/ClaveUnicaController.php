@@ -21,7 +21,7 @@ class ClaveUnicaController extends Controller
     
     public function redirectToProvider()
     {
-        dd(env('CLAVEUNICA_REDIRECT'));
+       
         return Socialite::with('claveunica')->scopes(['openid', 'run', 'name'])->redirect();
     }
 
