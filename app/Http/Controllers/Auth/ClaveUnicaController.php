@@ -53,7 +53,7 @@ class ClaveUnicaController extends Controller
         
         Auth::guard('userspublic')->login($user);
        
-        return redirect('/solicitudes-ciudadanas', 302)->with('status1','alert');
+        return redirect('https://inh.cl//home/solicitudes', 302)->with('status1','alert');
     }
 
     /**
