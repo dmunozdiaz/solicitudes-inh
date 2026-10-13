@@ -53,7 +53,7 @@
                         <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: rgb(00,113,206);">Instituto Nacional de Hidráulica (INH) <br /></h1>
                         <!--end::Title-->
                         <!--begin::Description-->
-                        <p class="fw-bold fs-2" style="color: rgb(00,113,206);">Información y Atención Ciudadana
+                        <p class="fw-bold fs-2" style="color: rgb(00,113,206);">Solicitudes
                             <br />
                         </p>
                         <!--end::Description-->
@@ -78,23 +78,18 @@
                             <!--begin::Heading-->
                             <div class="mb-10 text-center">
                                 <!--begin::Title-->
-                                <h1 class="text-dark mb-3">Sistema de Información y Atención Ciudadana</h1>
+                                <h1 class="text-dark mb-3">Sistema de Solicitudes</h1>
                                 <!--end::Title-->
                                 <!--begin::Link-->
                                 <!-- <div class="text-gray-400 fw-bold fs-4">Municipalidad de Temuco</div> -->
                                 <div class="text-gray-400 fs-4 text-start">Estimado ciudadano, utilice esta NUEVA
-                                    plataforma, para ingresar sus requerimientos al Municipio.<br><br />
+                                    plataforma, para ingresar sus solicitudes.<br><br />
                                     ¿Cómo se usa?<br /><br />
                                     <ul>
                                         <li>Digite su clave única.</li>
-                                        <li>Seleccione un área y servicio específico que el Municipio coloca a su
-                                            disposición y que se ajuste a su necesidad.</li>
-                                        <li>Ingrese los datos de vuestro requerimiento, describiéndolo con detalle,
-                                            puede también agregar imágenes o archivos adjuntos y vuestro mail.</li>
-                                        <li>Ud. recibirá inmediatamente un <b><u>NUMERO DE TICKET.</u></b></li>
-                                        <li>Podrá realizar un seguimiento y trazabilidad por esta misma página. A la vez
-                                            será informado automáticamente a su mail de los pasos que realiza su
-                                            solicitud al interior del Municipio.</li>
+                                        <li>Seleccione el Tipo de Solicitud.</li>
+                                        <li>Ingrese los datos de vuestra solicitud, describiéndola con detalle.</li>
+                                       
                                     </ul>
                                 </div>
                                 <div class="text-gray-400 fw-bold fs-4">
