@@ -24,13 +24,13 @@ class RedirectIfAuthenticated
         foreach ($guards as $guard) {
           
             if (Auth::guard($guard)->check() && $guard == 'userspublic') {
-                return redirect('solicitudes-ciudadanas');
+                return redirect('https://inh.cl//home/solicitudes');
             }else if(Auth::guard($guard)->check() && $guard == 'web'){
-                return redirect('mistareas');
+                return redirect('https://inh.cl//home/mistareas');
             }else if(Auth::guard('userspublic')->check() == true ){
-                return redirect('solicitudes-ciudadanas');
+                return redirect('https://inh.cl//home/solicitudes');
             }else if (Auth::guard('web')->check() == true ) {
-                return redirect('mistareas');
+                return redirect('https://inh.cl//home/solicitudes');
             }
         }
 
